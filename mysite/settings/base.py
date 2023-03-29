@@ -100,10 +100,7 @@ DATABASES = {
         "PORT": '7514',
     }
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> origin/master
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
 
