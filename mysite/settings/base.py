@@ -89,14 +89,17 @@ WSGI_APPLICATION = "mysite.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
+
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": os.path.join(BASE_DIR, "db.sqlite3"),
+        "ENGINE": "django.contrib.gis.db.backends.postgis",
+        "NAME": "postgresql://postgres:0vJbCtZuoi9y0HJ7Gpiy@containers-us-west-77.railway.app:7514/railway",
+        "USER": 'postgres',
+        "PASSWORD": '0vJbCtZuoi9y0HJ7Gpiy',
+        "HOST": 'containers-us-west-77.railway.app',
+        "PORT": '7514',
     }
 }
-
-
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
 
