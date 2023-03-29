@@ -100,6 +100,10 @@ DATABASES = {
         "PORT": '7514',
     }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
 
@@ -174,5 +178,3 @@ WAGTAILSEARCH_BACKENDS = {
 WAGTAILADMIN_BASE_URL = "http://example.com"
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-WSGI_APPLICATION = 'mysite.wsgi.app'
